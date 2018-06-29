@@ -561,14 +561,17 @@ ion-icon {
   .calculator {
     padding: 0 2em;
   }
-    footer {
-      .copyAndTerms {
-        padding: 10px;
-        height: auto;
-      }
-      small {
-        padding-right: 1.5em;
-      }
+  form {
+    padding: 0 2rem;
+  }
+  footer {
+    .copyAndTerms {
+      padding: 10px;
+      height: auto;
     }
+    small {
+      padding-right: 1.5em;
+    }
+  }
 
 }

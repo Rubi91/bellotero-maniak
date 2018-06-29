@@ -428,6 +428,9 @@ footer {
   .calculator {
     padding: 0 2em; }
 
+  form {
+    padding: 0 2rem; }
+
   footer .copyAndTerms {
     padding: 10px;
     height: auto; }
