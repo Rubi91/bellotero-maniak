@@ -7,7 +7,6 @@ export class Calculator extends Component {
 
   constructor(props) {
     super(props);
-    console.log(this.props.valueInitial)
     this.state = {
       valueIngredients: 10,
       valueEmployees: 5,
