@@ -414,16 +414,16 @@ footer {
   .section__carousel .carousel-left {
     padding: 1em; }
   .section__carousel .carousel-right {
-    padding: 2em; } }
-@media only screen and (max-width: 380px) {
+    padding: 2em; }
+
   .requestDemo {
     height: auto; }
     .requestDemo p {
       width: auto; }
     .requestDemo h1,
     .requestDemo p {
-      height: auto; }
-
+      height: auto; } }
+@media only screen and (max-width: 380px) {
   footer .copyAndTerms {
     padding: 10px;
     height: auto; } }

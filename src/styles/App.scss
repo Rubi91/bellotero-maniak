@@ -543,20 +543,21 @@ ion-icon {
       padding: 2em;
     }
   }
+  .requestDemo {
+    height: auto;
+    p {
+      width: auto;
+    }
+    h1,
+    p {
+      height: auto;
+    }
+  }
 }
 
 
 @media only screen and (max-width: $break-small) {
-    .requestDemo {
-      height: auto;
-      p {
-        width: auto;
-      }
-      h1,
-      p {
-        height: auto;
-      }
-    }
+
     footer {
       .copyAndTerms {
         padding: 10px;
