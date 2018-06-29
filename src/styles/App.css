@@ -347,7 +347,8 @@ ion-icon {
   height: 400px;
   line-height: 1.5;
   background-color: #00b896;
-  box-shadow: inset 0 1px 0 0 #1874c0; }
+  box-shadow: inset 0 1px 0 0 #1874c0;
+  padding: 5em 0; }
   .requestDemo h1 {
     width: 384px;
     height: 120px;
@@ -403,7 +404,7 @@ footer {
   input[type="text"],
   button {
     width: 100% !important;
-    margin: 0.5em; }
+    margin-top: 0.5em; }
 
   .section__intro__left {
     padding-left: 2em; }
@@ -424,8 +425,13 @@ footer {
     .requestDemo p {
       height: auto; } }
 @media only screen and (max-width: 380px) {
+  .calculator {
+    padding: 0 2em; }
+
   footer .copyAndTerms {
     padding: 10px;
-    height: auto; } }
+    height: auto; }
+  footer small {
+    padding-right: 1.5em; } }
 
 /*# sourceMappingURL=App.css.map */
